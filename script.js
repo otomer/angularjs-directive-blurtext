@@ -1,7 +1,7 @@
 var myApp = angular.module("myApp", []);
 
-// Text Disappearing directive
-// ***************************
+// Blur Text directive // by O.Tomer
+// *********************************
 myApp.directive("blurText", ['$sce', function($sce) {
   return {
     restrict: "E", //Element only
